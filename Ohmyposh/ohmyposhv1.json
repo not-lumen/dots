@@ -38,25 +38,6 @@
                 },
                 {
                     "background": "p:background-color",
-                    "foreground": "p:date-time-color",
-                    "powerline_symbol": "\ue0b0",
-                    "style": "powerline",
-                    "template": "- root \uf0e7",
-                    "type": "root"
-                },
-                {
-                    "background": "p:background-color",
-                    "foreground": "p:date-time-color",
-                    "powerline_symbol": "\ue0b0",
-                    "properties": {
-                        "time_format": "01/02 15:04"
-                    },
-                    "style": "powerline",
-                    "template": "{{ .CurrentDate | date .Format }} ",
-                    "type": "time"
-                },
-                {
-                    "background": "p:background-color",
                     "foreground": "p:git-color",
                     "foreground_templates": [
                         "{{ if gt .Ahead 0 }}#2EC4B6{{ end }}",
