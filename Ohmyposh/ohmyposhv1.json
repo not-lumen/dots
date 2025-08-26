@@ -69,24 +69,6 @@
             "type": "prompt"
         },
         {
-            "alignment": "right",
-            "segments": [
-                {
-                    "type": "spotify",
-                    "style": "diamond",
-                    "background": "transparent",
-                    "foreground": "white",
-                    "template": "<> {{ .Icon }}{{ if ne .Status \"stopped\" }}{{ .Artist }} - {{ .Track }}{{ end }}",
-                    "properties": {
-                        "playing_icon": "♫ ",
-                        "paused_icon": "⏸ ",
-                        "stopped_icon": "⏹ "
-                    }
-                }
-            ],
-            "type": "prompt"
-        },
-        {
             "alignment": "left",
             "newline": true,
             "segments": [
