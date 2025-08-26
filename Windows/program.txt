@@ -2,5 +2,8 @@ Programs that winutil does not install properly.
 
 - https://open.spotify.com/download
 - https://www.plex.tv/media-server-downloads/?cat=plex%20desktop&plat=windows#plex-app
+- https://www.nvidia.com/en-us/software/nvidia-app/
 
 For Plex we also need https://www.majorgeeks.com/files/details/dolby_ac_3ac_4_installer.html because its not shipped anymore
+
+After winutil install WinSetView Install https://lesferch.github.io/WinSetView/
